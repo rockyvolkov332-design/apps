@@ -95,5 +95,5 @@ ivf tracker,injections,fertility,egg freezing,trigger shot,stims,medication log,
 | com.svalto.doselog.pro.monthly | Auto-renewing, 1 month | $14.99 | Dose Log Pro Monthly | Every med, unlimited scans, trigger reminders |
 | com.svalto.doselog.pro.yearly | Auto-renewing, 1 year | $49.99 | Dose Log Pro Yearly | Every med, unlimited scans, trigger reminders |
 
-⚠️ The research doc proposed $12.99/month; the code says $14.99. Confirm with Damian before creating the monthly product.
+✅ Monthly price confirmed by Damian on 17 Nov: **$14.99**.
 ⚠️ The in-app Privacy button still opens svalto.com/privacy-policy (the store's policy). Point it to the app page above before App Review.

@@ -61,7 +61,7 @@ quit nicotine,pouches,snus,taper,step down,quit plan,cravings,nicotine free,habi
 >
 > HALVE PRO
 > The counter, money saved, craving log, SOS and the first step of your plan are free. Halve Pro unlocks the full step-down, plan editing, step heads-ups and craving patterns.
-> • Weekly or yearly auto-renewing subscription.
+> • Weekly or yearly auto-renewing subscription (yearly includes a 3-day free trial for new subscribers), or a one-time 60-day Plan pass that does not renew.
 > • Payment is charged to your Apple ID at confirmation of purchase.
 > • The subscription renews automatically unless cancelled at least 24 hours before the end of the current period.
 > • Manage or cancel in Settings › Apple ID › Subscriptions.
@@ -88,17 +88,21 @@ Answer "Alcohol, Tobacco, or Drug Use or References" = **Frequent**, which gives
 - **Notes:**
 > Halve is a habit tracker for adults who want to stop using nicotine pouches. There is no sign-in and no server; all data is stored on the device.
 > First launch: confirm 18+, enter your current habit, see your plan, choose reminders, then the paywall appears. Close it with the X to use the free plan (counter, money saved, craving log, SOS and step 1 of the plan).
-> Pro subscriptions (group "Halve Pro"): com.halveapp.quit.pro.yearly ($49.99/year) and com.halveapp.quit.pro.weekly ($7.99/week). They unlock steps 2+ of the taper, plan editing, step-change reminders and craving patterns. Restore is on the paywall and in Settings.
+> Pro: subscriptions (group "Halve Pro") com.halveapp.quit.pro.yearly ($49.99/year, 3-day free trial for new subscribers) and com.halveapp.quit.pro.weekly ($7.99/week), plus com.halveapp.quit.planpass, a non-renewing 60-day pass ($24.99). All unlock steps 2+ of the taper, plan editing, step-change reminders and craving patterns. Restore is on the paywall and in Settings.
 > The app shows no nicotine products and makes no medical claims.
 
-## Subscriptions (group "Halve Pro")
+## In-app purchases (decided 17 Nov: keep weekly, add Plan pass, 3-day trial on yearly)
 
-| Product ID | Duration | Price | Display name | Description (55) |
+| Product ID | Type | Price | Display name | Description (55) |
 |---|---|---|---|---|
-| com.halveapp.quit.pro.yearly | 1 year | $49.99 | Halve Pro Yearly | Your full step-down, reminders and craving patterns |
-| com.halveapp.quit.pro.weekly | 1 week | $7.99 | Halve Pro Weekly | Your full step-down, reminders and craving patterns |
+| com.halveapp.quit.pro.yearly | Auto-renewing, 1 year, group "Halve Pro" | $49.99 | Halve Pro Yearly | Your full step-down, reminders and craving patterns |
+| com.halveapp.quit.pro.weekly | Auto-renewing, 1 week, group "Halve Pro" | $7.99 | Halve Pro Weekly | Your full step-down, reminders and craving patterns |
+| **com.halveapp.quit.planpass** (NEW) | **Non-renewing subscription** (iOS) / **one-time product** (Play) | **$24.99** | Halve Plan Pass | 60 days of Halve Pro, one payment, no renewal |
 
-Review screenshot for both: `raw/06-paywall.png`.
+**Free trial (NEW):** on **yearly only**, add an **Introductory Offer: Free, 3 days**, for new subscribers, in all territories. In Play Console, add a **free-trial offer (3 days, new customers)** on the yearly base plan. The app reads trial eligibility from the store and only shows "3 days free" / "Start 3-day free trial" when the store says the user qualifies, so the trial must exist in the stores before the paywall can promise it.
+
+Review screenshots: `raw/06-paywall.png` (subscriptions). For the Plan pass, use `raw/07-paywall-planpass.png`.
+App build with these changes: **1.0.0 (2)**. Build 1 has no Plan pass and no trial wording.
 
 ## Google Play: store listing
 
@@ -117,4 +121,4 @@ Review screenshot for both: `raw/06-paywall.png`.
 | Content rating | IARC questionnaire: references to tobacco/nicotine → adult rating |
 | Target audience | 18+ only |
 | Ads | No ads |
-| Subscriptions | Same two IDs as iOS. Each gets one auto-renewing base plan: yearly P1Y $49.99, weekly P1W $7.99 |
+| Subscriptions | Same IDs as iOS: yearly base plan P1Y $49.99 + a 3-day free-trial offer (new customers); weekly base plan P1W $7.99. Plan pass `com.halveapp.quit.planpass` = one-time product $24.99 (consumed after granting 60 days) |
